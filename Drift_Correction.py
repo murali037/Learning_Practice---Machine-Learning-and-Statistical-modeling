@@ -137,7 +137,7 @@ values_blanks = data_blanks.drop(['Run_Num','Run_ID','_merge'], axis=1)
 
 # j = [5, 6, 7, 8, 9, 10, 11]
 
-k=0
+k=0 
 
 for i in range(len(data_Not_Blanks.Run_Num)):
     for j in range(k, len(data_blanks.Run_Num)):
